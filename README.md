@@ -7,6 +7,7 @@ The database is normalized to Third Normal Form (3NF), which avoids redundancy a
 
 ### 2. Relational Data Analysis
 We leveraged relational algebra through SQL to connect data from multiple tables using JOIN operations and analyzed it using:
+
 Aggregation: SUM, AVG, COUNT
 Filtering: WHERE, HAVING
 Sorting & Ranking: ORDER BY, ROW_NUMBER()
@@ -14,10 +15,12 @@ Grouping: GROUP BY
 
 ### 3. Window Functions
 We used window functions like ROW_NUMBER() and RANK() to partition and rank rows based on conditions. This is especially useful when:
+
 Identifying the top customer per country
 Finding the most popular genre in each region
 
 ### 4. Common Table Expressions (CTEs)
 CTEs (WITH clause) improve readability, modularity, and debugging of SQL queries. They are especially useful when breaking down complex logic like:
+
 Finding the best-selling artist
 Comparing customer spending across multiple conditions
